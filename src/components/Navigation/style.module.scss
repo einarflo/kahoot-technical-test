@@ -1,0 +1,26 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    background: #45A3E5;
+    display: inline-block;
+    .brand {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    .hamburger {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: -38px;
+        padding-right: 20px;
+        float: right;
+        cursor: pointer;
+        @media (min-width: 801px) {
+            display: none;
+        }
+    }
+}
+

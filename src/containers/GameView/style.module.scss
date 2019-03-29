@@ -1,0 +1,23 @@
+.background {
+    background: white;
+    height: 100%;
+    width: 100%;
+
+    .iconBox {
+        min-height: 400px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        display: -webkit-box;
+    }
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin: 5px;
+    display: -webkit-inline-box;
+    border-radius: 10px;
+}

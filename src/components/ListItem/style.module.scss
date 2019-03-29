@@ -1,0 +1,80 @@
+.box {
+    height: 50px;
+    width: 50px;
+    background: red;
+    margin-left: 15px;
+    display: -webkit-inline-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    background: #26890C;
+    @extend .box;
+}
+
+.blue {
+    background: #0F509F;
+    @extend .box;
+}
+
+.yellow {
+    background: #F3AA3B;
+    @extend .box;
+}
+
+.red {
+    background: #E21B3C;
+    @extend .box;
+}
+
+
+.diamond {
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-bottom-color: white;
+    position: relative;
+    margin-top: -5px;
+      
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: white;
+  }
+  
+.circle {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    background: white;
+}
+.triangle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 25px solid white;
+}
+.square {
+    height: 40%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    background: white;
+}

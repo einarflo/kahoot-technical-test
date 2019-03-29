@@ -1,0 +1,68 @@
+.skewBox {
+    height: 30%;
+    background: #E21B3C;
+    transform: skewY(3deg) translateY(4%);
+    .unskew {
+        transform: skewY(-3deg) translateY(3%);
+        height: 100%;
+        .bonus {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin-left: 15px;
+            margin-top: 15px;
+            margin-bottom: 12px;
+        }
+        .bonusCount {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin-right: 15px;
+            margin-top: -50px;
+            margin-bottom: 15px;
+            float: right;
+        }
+        .scoreBox {
+            background: #46178E;
+            height: 100%;
+            .score {
+                font-size: 32px;
+                font-weight: bold;
+                color: white;
+                margin-left: 15px;
+                padding-top: 12px;
+                margin-bottom: 15px;
+            }
+            .scoreCount {
+                font-size: 32px;
+                font-weight: bold;
+                color: white;
+                margin-right: 15px;
+                margin-top: -53px;
+                margin-bottom: 15px;
+                float: right;
+            }
+        }
+        .resetButton {
+            height: 100%;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            background: white;
+            transform: skewY(-3deg) translateY(3%);
+            border-radius: 10px;
+            cursor: pointer;
+            .unskew {
+                transform: skewY(3deg) translateY(3%);
+            }
+            .buttonText {
+                text-align: center;
+                color: #46178E;
+                font-weight: bold;
+                font-size: 20px;
+                padding-top: 15px;
+            }
+        }
+    }
+}
